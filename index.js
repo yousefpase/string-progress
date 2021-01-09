@@ -1,5 +1,6 @@
-const bar = require('./src/lib/format');
+const { __format, bar } = require('./src/lib/format');
 
 module.exports = {
-  createBar: bar
+  createBar: bar,
+  format: __format
 }
